@@ -1,0 +1,19 @@
+/* This are the external styles */
+div {
+    background-color: red;
+    color: white;
+    font-size: 32px;
+    font-weight: bolder;
+    font-display: auto;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+p {
+    background-color: green;
+    color: white;
+    font-size: 18px;
+}
+button {
+    background-color: darkorange;
+    font-size: 18px;
+}
