@@ -3,7 +3,9 @@
 html, body {
   height: 100%;
 }
-
+* {
+  margin:8px;
+}
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
@@ -14,12 +16,31 @@ body {
   align-items: center;
   justify-content: center;
 }
-
+.header, .close-button{
+  font-weight: bolder;
+  margin:0;
+  margin-right:0px;
+  width:fit-content;
+}
+.top{
+  display:flex;
+}
+.close-button{
+  margin-left:auto; 
+}
+.text{
+  margin-bottom:20px;
+}
+.bottom > *{
+  margin:0px;
+  gap: 2px;
+}
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display:flex;
 }
 
 .icon {

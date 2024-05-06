@@ -24,3 +24,32 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+.header, .footer, .left-links, .right-links{
+  display:flex;
+  gap:16px;
+}
+.header{
+  top:0%;
+}
+.footer{
+  bottom:0%;
+  background-color:#f5f4f4;
+}
+.content{
+  display:flex;
+  margin:100px;
+  flex-direction:column;
+}
+.input{
+  margin:20px;
+}
+.buttons{
+  text-align:center;
+}
+.left-links{
+  margin-left:0px; margin-right:auto;
+}
+.right-links-links{
+  margin-right:0px; margin-left:auto;
+}
